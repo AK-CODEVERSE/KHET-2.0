@@ -2,6 +2,7 @@
   "name": "laser-chess-client",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -12,6 +13,7 @@
     "socket.io-client": "^4.7.2"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.0"
   }
 }
